@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100vh;
+  background-image: url('../../images/main.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &_gameBtn {
+    height: 60px;
+    width: 230px;
+    font-family: Montserrat;
+    cursor: pointer;
+    
+  }
+&_btn--link{
+    text-decoration: none;
+    color: black;
+}
+
+}
+
+.main_gameBtn:hover {
+}

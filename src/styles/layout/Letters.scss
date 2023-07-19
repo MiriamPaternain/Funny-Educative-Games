@@ -1,0 +1,86 @@
+.letters__button--link{
+    text-decoration: none;
+    font-size: 20px;
+    width: 80px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 60px;
+  padding: 15px;
+font-family: 'Montserrat';
+}
+.letters__button--link {
+        text-decoration: none;
+        font-size: 20px;
+        width: 80px;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .description {
+        padding: 30px;
+        font-size: 15px;
+        font-family: 'Montserrat';
+    }
+
+    .letters {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .letters__button--ABC {
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+
+    .letters__button--ABC:hover {
+        border: 2px solid grey;
+        width: 48px;
+        height: 48px;
+        background-color: #feca0f;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+        &__img{
+            height: 200px;
+
+        }
+&__btn--left {
+    margin-top: 120px;
+        height: 80px;
+        width: 40px;
+    }
+&__btn--right {
+    margin-top: 120px;
+    height: 80px;
+    width: 40px;
+}
+    }
+
+
+

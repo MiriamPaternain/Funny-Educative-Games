@@ -1,0 +1,20 @@
+.cardContainer {
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  &__lines {
+    width: 500pxpx;
+    font-size: 60px;
+  }
+  &__img {
+    width: 150px;
+  }
+  &__word {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: 'Montserrat';
+  }
+}
